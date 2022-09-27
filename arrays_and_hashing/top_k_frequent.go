@@ -1,6 +1,8 @@
 package arrays_and_hashing
 
 // Given an integer array nums and an integer k, return the k most frequent elements. You may return the answer in any order.
+// video: https://www.youtube.com/watch?v=YPTqKIgVk-k&feature=emb_title
+
 func topKFrequent(nums []int, k int) []int {
 	count := map[int]int{} // index: nums[i]; value: count
 	for _, n := range nums {

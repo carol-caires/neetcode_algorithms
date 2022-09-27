@@ -3,6 +3,7 @@ package arrays_and_hashing
 // There is another solution involving sorting the strings, but we never know the time complexity of the sorting algorithm
 
 // Given two strings s and t, return true if t is an anagram of s, and false otherwise.
+// video: https://www.youtube.com/watch?v=9UtInBqnCgA&feature=emb_title
 func isAnagram(s string, t string) bool {
 	var sRunes, tRunes rune
 	for _, runeValue := range s {

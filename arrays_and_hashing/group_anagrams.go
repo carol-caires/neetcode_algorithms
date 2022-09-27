@@ -1,6 +1,7 @@
 package arrays_and_hashing
 
 // Given an array of strings strs, group the anagrams together. You can return the answer in any order.
+// video: https://www.youtube.com/watch?v=vzdNOK2oB2E&feature=emb_title
 
 // O(n^2) solution
 func groupAnagrams(strs []string) [][]string {

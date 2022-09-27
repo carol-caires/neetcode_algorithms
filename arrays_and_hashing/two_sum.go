@@ -2,6 +2,7 @@ package arrays_and_hashing
 
 // Given an array of integers nums and an integer target,
 //return indices of the two numbers such that they add up to target.
+// video: https://www.youtube.com/watch?v=KLlXCFG5TnA
 
 // first solution O(n^2) complexity (brute force)
 func twoSum(nums []int, target int) []int {
